@@ -74,8 +74,7 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="/event" class="nav-item nav-link">Acara</a>
-                    <a href="/blog" class="nav-item nav-link">Blog</a>
+                    <a href="/adminDonation" class="nav-item nav-link">Masuk halaman Admin</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu">
@@ -83,8 +82,6 @@
                             <a href="/volunteer" class="dropdown-item">Daftar Relawan</a>
                         </div>
                     </div>
-                    <a href="/contact" class="nav-item nav-link">Kontak</a>
-                    <a href="/belanja" class="nav-item nav-link">Belanja</a>
 
                     @if (session('user_name')) <!-- Jika pengguna login -->
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: flex;">

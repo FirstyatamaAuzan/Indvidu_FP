@@ -62,7 +62,7 @@
 	<section id="sidebar">
 		<a href="/admin" class="brand">
             <i class='bx bxs-smile'></i>
-            <span class="text">{{ Auth::user()->name ?? 'AdminHub' }}</span>
+            {{-- <span class="text">{{ Auth::user()->name ?? 'AdminHub' }}</span> --}}
         </a>
 		<ul class="side-menu top">
 			<li>
